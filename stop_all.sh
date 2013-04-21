@@ -1,5 +1,5 @@
 #!/bin/bash
 
-source inc4
+source inc
 
 lxc_scripts/stop.sh

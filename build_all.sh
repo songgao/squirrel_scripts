@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source inc4
+source inc
 
 DIR=$(cd $(dirname $0) && pwd)
 export VANILLA='test-vanilla'
