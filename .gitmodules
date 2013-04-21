@@ -1,0 +1,3 @@
+[submodule "lxc_scripts"]
+	path = lxc_scripts
+	url = git://github.com/songgao/lxc_scripts
