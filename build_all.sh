@@ -11,6 +11,5 @@ python -m SimpleHTTPServer 8099 &
 SERVER_PID=$!
 cd $DIR
 
-lxc_scripts/create.sh #&& lxc_scripts/clone.sh
-echo $SERVER_PID
+lxc_scripts/create.sh && lxc_scripts/clone.sh
 kill $SERVER_PID
